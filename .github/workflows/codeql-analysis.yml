@@ -76,7 +76,7 @@ jobs:
       uses: zbazztian/filter-sarif@master
       with:
         patterns: |
-          -**/*test*.ps
+          -**/*test*.js
         input: sarif-results/${{ matrix.language }}.sarif
         output: sarif-results/${{ matrix.language }}.sarif
 
